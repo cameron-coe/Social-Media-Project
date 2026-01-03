@@ -1,0 +1,33 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas: 
+    "header header header"
+    "left-menu center-menu right-menu"
+  ;
+  height: 97.5vh;
+  width: 99%;
+  gap: 5px;
+  box-sizing: border-box;
+}
+
+.header {
+  grid-area: header;
+  padding: 5px;
+}
+
+.left-menu {
+  grid-area: left-menu;
+  padding: 5px;
+}
+
+.center-menu {
+  grid-area: center-menu;
+  padding: 5px;
+}
+
+.right-menu {
+  grid-area: right-menu;
+  padding: 5px;
+}

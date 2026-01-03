@@ -1,0 +1,8 @@
+<div>
+    <p>Number of likes: {{ numOfLikes }}</p>
+    <a (click)="toggleLike()">
+        <ng-container *ngIf="isLiked; else unliked">👍 Liked</ng-container>
+        <ng-template #unliked>- Unliked</ng-template>
+    </a>
+</div>
+  

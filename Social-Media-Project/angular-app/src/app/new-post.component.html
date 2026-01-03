@@ -1,0 +1,27 @@
+<h1>This is the New Post Component</h1>
+<br/>
+<form (ngSubmit)="onSubmit($event)">
+  <textarea 
+    id="postTitle" 
+    placeholder="Title" 
+    [(ngModel)]="postTitle" 
+    name="postTitle" 
+    required>
+  </textarea>
+
+  <textarea 
+    id="postContent" 
+    placeholder="Say Something" 
+    [(ngModel)]="postContent" 
+    name="postContent" 
+    required
+  >
+  </textarea>
+
+  <select [(ngModel)]="postTag" name="searchTopic">
+    <option *ngFor="let tag of postTagOptions" [value]="tag">{{ tag }}</option>
+  </select>
+
+
+  <input type="submit" value="Submit Post" />
+</form>

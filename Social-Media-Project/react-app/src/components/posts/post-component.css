@@ -1,0 +1,39 @@
+.post-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px 24px;
+    margin: 16px auto;
+    max-width: 600px;
+
+    transition: box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.20);
+}
+
+.post-card h2 {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.post-card .main-content {
+    font-size: 20px;
+}
+
+.post-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/** Makes \n display as a new line **/
+.main-content {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+

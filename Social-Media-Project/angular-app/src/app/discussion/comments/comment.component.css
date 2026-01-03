@@ -1,0 +1,33 @@
+/* Comment container */
+.comment {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+/* Comment text */
+.comment p {
+    font-size: 0.95em;
+    color: #555;
+    margin: 0;
+}
+
+/* Comment meta (e.g., Comment ID) */
+.comment small {
+    font-size: 0.8em;
+    color: #888;
+}
+
+/* Show/Hide nested comments */
+.comment a {
+    font-size: 0.85em;
+    color: #007BFF;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.comment a:hover {
+    color: #0056b3;
+}

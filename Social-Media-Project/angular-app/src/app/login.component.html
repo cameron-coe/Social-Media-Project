@@ -1,0 +1,7 @@
+<h1>Welcome Back!</h1>
+<br/>
+<form (ngSubmit)="onSubmit($event)">
+  <input type="textarea" placeholder="Username" [(ngModel)]="username" name="username" required />
+  <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required />
+  <input type="submit" value="Login" />
+</form>

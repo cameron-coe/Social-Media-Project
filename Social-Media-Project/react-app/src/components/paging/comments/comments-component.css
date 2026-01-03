@@ -1,0 +1,96 @@
+.add-space-below {
+  margin-bottom: 20px;
+}
+
+/* Styling for Adding Comments */
+.new-comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.new-comment-form input[type="text"] {
+  width: 95%;
+  margin-left: auto;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.comment-actions button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-actions button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.comment-actions button[type="button"] {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+
+/* Styling for Comments */
+
+.comments-container {
+  margin-left: 20px; /* space for line */
+}
+
+.comment-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 20px; /* space for horizontal connector */
+}
+
+/* vertical line segment for each comment */
+.comment-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 1.2em;
+  bottom: -2.2em;
+  width: 2px;
+  left: 0.0em;
+  background: #838383;
+}
+
+/* horizontal connector */
+.comment-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 1.2em; /* middle of comment */
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #838383;
+}
+
+/* remove vertical line for last comment */
+.comment-wrapper:last-child::after {
+  display: none;
+}
+
+/* special case: first comment — extend line upward */
+.comment-wrapper:first-child::after {
+  top: 0; /* start at top of the first comment */
+}
+
+/* special case: if it's the only comment (first + last) */
+.comment-wrapper:first-child:last-child::after {
+  display: block;   /* force line to show */
+  top: 0;           /* extend above the connector */
+  bottom: auto;     /* don’t draw past the comment */
+  height: 1.2em;    /* just enough to reach the connector */
+}

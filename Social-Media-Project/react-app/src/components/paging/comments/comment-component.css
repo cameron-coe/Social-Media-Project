@@ -1,0 +1,41 @@
+.comment-card {
+    background-color: #fafafc;
+    border: 1px solid #4f4f4f;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+}
+
+.comment-card h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.comment-card .comment-content {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.comment-content {
+    font-weight: bold;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.comment-card p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #313131;
+}
+
+.comment-divider {
+    margin-bottom: 8px;
+}
+
+.comment-options-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

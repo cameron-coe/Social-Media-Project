@@ -1,0 +1,62 @@
+<div class="grid-container">
+    <!-- Header with buttons -->
+    <header>
+      <ng-container *ngIf="!isUserLoggedIn()">
+        <button class="header-btn" (click)="showModal('login')">Login</button>
+        <button class="header-btn" (click)="showModal('signup')">Sign Up</button>
+      </ng-container>
+
+      <ng-container *ngIf="isUserLoggedIn()">
+        <button class="header-btn" (click)="showModal('newPost')">New Post</button>
+        <img class="profile-img clickable" (click)="profileClicked()" src="assets\images\default_profile_img.png" alt="Profile_img">
+        <p class="clickable" (click)="profileClicked()">
+          Hey, {{getUsername()}}!
+        </p>
+      </ng-container>
+    </header>
+  
+    <!-- Left sidebar -->
+    <aside class="left-bar">
+      <post-search></post-search>
+      <div class="navigation">
+        <h3>Navigation</h3>
+        <!-- Navigation links can be added here -->
+      </div>
+    </aside>
+  
+    <!-- Main content (Router) -->
+    <main class="main-content">
+      <router-outlet></router-outlet>
+    </main>
+  
+    <!-- Right sidebar -->
+    <aside class="right-bar">
+      <ng-container *ngIf="isUserLoggedIn()">
+        
+      </ng-container>
+      <div class="hot-topics">
+        <h3>Hot Topics</h3>
+        <!-- Topics can be populated here -->
+      </div>
+    </aside>
+  </div>
+  
+  <!-- Modals for login, signup, and new post -->
+  <div [class.show-modal]="modal === 'login'" class="modal-overlay" (click)="closeModal()">
+    <div class="modal-container" (click)="$event.stopPropagation()">
+      <login></login>
+    </div>
+  </div>
+  
+  <div [class.show-modal]="modal === 'signup'" class="modal-overlay" (click)="closeModal()">
+    <div class="modal-container" (click)="$event.stopPropagation()">
+      <sign-up></sign-up>
+    </div>
+  </div>
+  
+  <div [class.show-modal]="modal === 'newPost'" class="modal-overlay" (click)="closeModal()">
+    <div class="modal-container" (click)="$event.stopPropagation()">
+      <new-post></new-post>
+    </div>
+  </div>
+  

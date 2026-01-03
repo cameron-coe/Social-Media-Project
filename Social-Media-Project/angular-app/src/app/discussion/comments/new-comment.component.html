@@ -1,0 +1,12 @@
+<div class="new-comment">
+    <a *ngIf="!isCommenting" (click)="toggleCommenting()">Add Comment</a>
+  
+    <div *ngIf="isCommenting">
+      <form (ngSubmit)="submitComment()">
+        <textarea [(ngModel)]="commentContent" name="commentContent" rows="3" placeholder="Add Your Thoughts"></textarea>
+        <button type="submit">Submit</button>
+        <button type="button" (click)="toggleCommenting()">Cancel</button>
+      </form>
+    </div>
+  </div>
+  

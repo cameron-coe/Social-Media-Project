@@ -1,0 +1,13 @@
+/** Text that is clickable **/
+.clickable-text {
+  color: blue;
+}
+
+.clickable-text:hover {
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  text-align: start;
+}

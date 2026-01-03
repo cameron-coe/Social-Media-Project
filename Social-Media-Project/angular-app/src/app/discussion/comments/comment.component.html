@@ -1,0 +1,20 @@
+<div class="comment">
+    <p>{{ currentComment.content }}</p>
+    <small>Comment ID: {{ currentComment.id }}</small>
+    <likes></likes>
+
+    <comments [comments]="currentComment.nestedComments"></comments>
+
+    <!-- When Comments are Hidden -->
+    <ng-container *ngIf="hideNestedComments">
+        <a (click)="openThisCommentThread()">Show Comments</a>
+    </ng-container>
+
+    <!-- When Comments are Not Hidden -->
+    <ng-container *ngIf="!hideNestedComments">
+        <comments [comments]="getNestedComments"></comments>
+
+        <!-- Add New Comment -->
+        <new-comment (commentAdded)="addNestedComment($event)" [parentCommentId]="currentComment.id"></new-comment>
+    </ng-container>
+</div>

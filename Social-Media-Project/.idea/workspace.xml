@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1a18ed8-9721-4c5c-a0b8-53094970574a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/angular-app/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/sign-up.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/services/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/database/database_creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/database/database_creation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/dao/JdbcMemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/dao/JdbcMemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/http/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/main/java/com/creditcardcomparison/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-app/src/test/java/com/creditcardcomparison/http/HttpParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-app/src/test/java/com/creditcardcomparison/http/HttpParserTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fazVe6NXssC6tuYSqqpWi6za6Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HttpServer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpParserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpParserTest.parseHttpGetRequest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HttpParserTest.parseHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpParserTest.request_should_not_parse_unsupported_http_version.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpVersionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.creditcardcomparison.http in Credit_Card_Comparison.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.creditcardcomparison.http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HttpServer">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.creditcardcomparison.httpserver.HttpServer" />
+      <module name="Credit_Card_Comparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.creditcardcomparison.httpserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Credit_Card_Comparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.creditcardcomparison.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.creditcardcomparison.http" />
+      <option name="MAIN_CLASS_NAME" value="com.creditcardcomparison.http.HttpParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpParserTest.parseHttpGetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Credit_Card_Comparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.creditcardcomparison.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.creditcardcomparison.http" />
+      <option name="MAIN_CLASS_NAME" value="com.creditcardcomparison.http.HttpParserTest" />
+      <option name="METHOD_NAME" value="parseHttpGetRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpParserTest.request_should_not_parse_unsupported_http_version" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Credit_Card_Comparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.creditcardcomparison.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.creditcardcomparison.http" />
+      <option name="MAIN_CLASS_NAME" value="com.creditcardcomparison.http.HttpParserTest" />
+      <option name="METHOD_NAME" value="request_should_not_parse_unsupported_http_version" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.creditcardcomparison.http in Credit_Card_Comparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Credit_Card_Comparison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.creditcardcomparison.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.creditcardcomparison.http" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Credit Card Comparison" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Credit Card Comparison" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HttpServer" />
+        <item itemvalue="JUnit.com.creditcardcomparison.http in Credit_Card_Comparison" />
+        <item itemvalue="JUnit.HttpParserTest" />
+        <item itemvalue="JUnit.HttpParserTest.parseHttpGetRequest" />
+        <item itemvalue="JUnit.HttpParserTest.request_should_not_parse_unsupported_http_version" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1a18ed8-9721-4c5c-a0b8-53094970574a" name="Changes" comment="" />
+      <created>1714054011787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714054011787</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

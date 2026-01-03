@@ -1,0 +1,5 @@
+For react app:
+npm run dev
+
+for angular app:
+npm start

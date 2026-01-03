@@ -1,0 +1,40 @@
+<div class="post-search-container">
+
+  <!-- Sort by Options -->
+  Search Posts By: 
+  <select [(ngModel)]="sortBy" name="sortBy">
+    <option *ngFor="let sortByOption of sortByOptions" [ngValue]="sortByOption">{{ sortByOption.name }}</option>
+  </select>
+  <br/>
+  <br/>
+
+
+    <form (ngSubmit)="searchPosts(searchTerm, searchTag)" #searchForm="ngForm" class="search-form">
+      
+      <!-- Search Term Input -->
+      <div *ngIf="sortBy.id == 1">
+        Search Term (Optional) 
+        <input
+          type="text"
+          [(ngModel)]="searchTerm"
+          name="searchTerm"
+          placeholder=""
+          class="search-input"
+        />
+      </div>
+
+      <!-- Post Tag -->
+      Filter By Tags 
+      <select [(ngModel)]="searchTag" name="searchTopic">
+        <option *ngFor="let tag of searchTagOptions" [value]="tag">{{ tag }}</option>
+      </select>
+      
+      <br/>
+
+      <!-- Submit Button -->
+      <button type="submit" [disabled]="isSubmitButtonDisabled()" class="search-button">
+        Search
+      </button>
+    </form>
+  </div>
+  

@@ -1,0 +1,29 @@
+
+/** Non-text Elements that are clickable **/
+.clickable:hover {
+  cursor: pointer;
+}
+
+
+/** Underline elements when Hovering **/
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  font-weight: normal;
+  transition: font-weight 0.3s;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}

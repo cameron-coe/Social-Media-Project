@@ -1,0 +1,6 @@
+<div class="comments">
+    <ng-container *ngFor="let comment of comments">
+        <div class="verticalSpacing"></div>
+        <comment [currentComment]="comment" [showComments]=true></comment>
+    </ng-container>
+</div>

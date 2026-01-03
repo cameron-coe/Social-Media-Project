@@ -1,0 +1,52 @@
+<button type="submit" (click)="goToPostsPage()">
+    Back to Posts ↩
+</button>
+<br>
+<br>
+
+<div class="post">
+    <h2>{{ selectedPost.title }}</h2>
+    <p>{{ selectedPost.content }}</p>
+    <small>Post ID: {{ selectedPost.id }}</small>
+    <likes></likes>
+
+    <!-- When Comments are Hidden -->
+    <ng-container *ngIf="hideComments">
+        <a (click)="toggleHideComments()">Show Comments</a>
+    </ng-container>
+
+    <!-- Shows when there is a Selected Comment -->
+    <ng-container *ngIf="getSelectedCommentId()">
+        <a (click)="unselectComment()">Show Post Comments</a>
+        <div class="horizontalDivider"></div>
+    </ng-container>
+
+    <!-- When Comments are Not Hidden -->
+    <ng-container *ngIf="!hideComments">
+
+        <ng-container *ngIf="commentThread?.length">
+            <ng-container *ngFor="let comment of commentThread">
+                <div class="commentThreadChain"></div>
+
+                <!-- comments before the Selected Comment in the comment thread, which should not have their comments showing -->
+                <ng-container *ngIf="comment.id != getSelectedCommentId()">
+                    <comment [currentComment]="comment" [showComments]="false"></comment>
+                </ng-container>
+
+                <!-- The Selected Comment, which should have its comments showing -->
+                <ng-container *ngIf="comment.id == getSelectedCommentId()">
+                    <comment [currentComment]="comment" [showComments]="true"></comment>
+                </ng-container>
+                
+            </ng-container>
+        </ng-container>
+        
+        <comments [comments]="getComments" showComments=true></comments>
+
+        <!-- Shows when there isn't a Selected Comment -->
+        <ng-container *ngIf="!getSelectedCommentId()">
+            <!-- Add New Comment -->
+            <new-comment (commentAdded)="addComment($event)" [parentPostId]="getPostId()"></new-comment>
+        </ng-container>
+    </ng-container>
+</div>

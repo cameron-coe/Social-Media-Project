@@ -1,0 +1,67 @@
+/* Post container */
+.post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Post title */
+.post h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Post content */
+.post p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Post meta (e.g., Post ID) */
+.post small {
+  display: block;
+  font-size: 0.9em;
+  color: #999;
+}
+
+/* Show/Hide Comments and Like button links */
+.post a {
+  font-size: 0.9em;
+  color: #007BFF;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.post a:hover {
+  color: #0056b3;
+}
+
+/* Likes and other interactive buttons */
+.likes, .show-comments-btn, .hide-comments-btn {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.likes:hover, .show-comments-btn:hover, .hide-comments-btn:hover {
+  background-color: #0056b3;
+}

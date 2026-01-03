@@ -1,0 +1,22 @@
+
+/** Compoenent Alignment **/
+.align-left {
+  text-align: start;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: end;
+}
+
+
+
+/** Margins  **/
+.right-margin-10px {
+  padding-left: 100px;
+}
+
+

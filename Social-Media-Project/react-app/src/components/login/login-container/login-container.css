@@ -1,0 +1,6 @@
+.login-container {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+}

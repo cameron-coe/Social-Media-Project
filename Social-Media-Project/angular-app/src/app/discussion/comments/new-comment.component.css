@@ -1,0 +1,64 @@
+/* New comment container */
+.new-comment {
+    margin-top: 15px;
+}
+
+/* "Add Comment" link */
+.new-comment a {
+    color: #007BFF;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.new-comment a:hover {
+    color: #0056b3;
+}
+
+/* Form container */
+.new-comment form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* Comment textarea */
+.new-comment textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.new-comment textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Form buttons */
+.new-comment button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 8px;
+}
+
+.new-comment button:hover {
+    background-color: #0056b3;
+}
+
+/* Cancel button */
+.new-comment button[type="button"] {
+    background-color: #ccc;
+}
+
+.new-comment button[type="button"]:hover {
+    background-color: #aaa;
+}
